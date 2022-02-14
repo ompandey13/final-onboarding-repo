@@ -9,7 +9,7 @@ Globals:
         TABLE_NAME:
           Ref: Table
     MemorySize: 128
-    Timeout: 5
+    Timeout: 500
 Resources:
   Table:
     Type: AWS::Serverless::SimpleTable
@@ -33,7 +33,7 @@ Resources:
           Properties:
             Path: /user/{userid}
             Method: get
-      CodeUri: s3://om-sam1/edfb8cf044838cdf17b549d04cdf8aa4
+      CodeUri: s3://om-sam1/efb5b7ceaf175b6585d865df2cda5de4
     Metadata:
       SamResourceId: GetUser
   PostUser:
@@ -47,7 +47,7 @@ Resources:
           Properties:
             Path: /user/{userid}
             Method: post
-      CodeUri: s3://om-sam1/edfb8cf044838cdf17b549d04cdf8aa4
+      CodeUri: s3://om-sam1/efb5b7ceaf175b6585d865df2cda5de4
     Metadata:
       SamResourceId: PostUser
   DeleteUser:
@@ -61,6 +61,6 @@ Resources:
           Properties:
             Path: /user/{userid}
             Method: delete
-      CodeUri: s3://om-sam1/edfb8cf044838cdf17b549d04cdf8aa4
+      CodeUri: s3://om-sam1/efb5b7ceaf175b6585d865df2cda5de4
     Metadata:
       SamResourceId: DeleteUser

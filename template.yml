@@ -11,7 +11,7 @@ Globals:
         TABLE_NAME: !Ref Table
 
     MemorySize: 128
-    Timeout: 5
+    Timeout: 500
 
 Resources:
   Table:
