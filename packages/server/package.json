@@ -4,11 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@lambda-middleware/class-validator": "^2.0.1",
+    "@lambda-middleware/compose": "^1.2.0",
+    "@lambda-middleware/http-error-handler": "^2.0.0",
     "@week2/common": "1.0.0",
-    "aws-sdk": "^2.1073.0"
+    "aws-sdk": "^2.1073.0",
+    "class-validator": "^0.13.2"
   },
   "devDependencies": {
     "@types/node": "^17.0.16",
+    "@types/validator": "^13.7.1",
     "ts-node": "^10.5.0",
     "typescript": "^4.5.5"
   },
