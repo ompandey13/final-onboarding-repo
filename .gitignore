@@ -1,0 +1,12 @@
+*.DS_Store
+.history
+node_modules
+.layer
+dist/
+.env
+.eslintcache
+yarn-error.log
+/.vscode
+.idea
+coverage
+__integration_stub__/tmp
